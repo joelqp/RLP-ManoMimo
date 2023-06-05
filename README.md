@@ -110,6 +110,10 @@ We calculate the three angles of the joints of each finger, in descending order 
 
 ## Finger models
 
+Dataframe de los angulos de las articulaciones de un dedo:
+<img src="https://raw.githubusercontent.com/1568079/img/main/Dataframe%20de%20los%20angulos%20de%20las%20articulaciones%20de%20un%20dedo.png" width="640" alt="DATAFRAME pic">
+
+
 # Use-case
 
 If this project helps your robotics project, please let us know with creating an Issue with the title Use-case.
