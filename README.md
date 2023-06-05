@@ -114,7 +114,7 @@ We calculate the three angles of the joints of each finger, in descending order 
 Dataframe de los angulos de las articulaciones de un dedo: <br> <br>
 <img src="https://raw.githubusercontent.com/1568079/img/main/Dataframe%20de%20los%20angulos%20de%20las%20articulaciones%20de%20un%20dedo.png" width="320" alt="DATAFRAME pic">
 
-GRAFICO DE DISPERSION
+GRAFICO DE DISPERSION <br>
 Generamos una nube de puntos para ver la correlacion entre una de las articulaciones y la clase (si las falanges estan extendidas o flexionadas): <br> <br>
 <img src="https://raw.githubusercontent.com/1568079/img/main/GRAFICO%20DE%20DISPERSION.png" width="640" alt="DISPERSIÓN pic">
 
