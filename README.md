@@ -112,9 +112,13 @@ We calculate the three angles of the joints of each finger, in descending order 
 
 # Use-case
 
+If this project helps your robotics project, please let us know with creating an Issue with the title Use-case.
+
+Your robot's video is very welcome!!
+
 # Contribution
 
-Contributions are always welcome! Please submit a Pull Request or send us an email.
+Contributions are always welcome! Please submit a Pull Request.
 
 # Citing
 
@@ -124,7 +128,7 @@ If you use this project's code in industry, we'd love to hear from you as well; 
 
 # Support
 
-If you have any issues or suggestions, please submit a Pull Request.
+If you have any issues, please create an Issue.
 
 # Sponsors
 
@@ -145,6 +149,3 @@ Arnau Tena González 1526414
 Jill Areny Palma Garro 1604284
 
 Martí Rius Ollé 1568079
-
-
-
