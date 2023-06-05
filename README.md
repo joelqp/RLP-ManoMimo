@@ -4,7 +4,6 @@
    * [What is this?](#what-is-this)
    * [Requirements](#requirements)
    * [Documentation](#documentation)
-   * [How to use](#how-to-use)
    * [Client-Server connection](#client-server-connection)
       * [Client](#client)
       * [Server](#server)
@@ -51,8 +50,6 @@ For development:
 This README only shows our progress in the project and the different tests that we have been carrying out.
 
 If you want to improve it, you can try more advanced models and different types of clients and servers.
-
-# How to use
 
 # Client-Server connection
 
