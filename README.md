@@ -26,7 +26,7 @@ This is a collection of codes to make a robotic hand mimic movements
 
 Features:
 
-1. Easy to read, well structured and well commented.
+1. Easy to read, well-structured and well commented.
 
 2. There are tests of different types of servers and the most optimal ones are selected.
 
@@ -55,11 +55,11 @@ If you want to improve it, you can try more advanced models and different types 
 
 # Client-Server connection
 
-Regarding the client-server connection we have tested 2 types:
+Regarding the client-server connection, we have tested 2 types:
 - TCP
 - UDP
 
-Finally we have stayed with the tcp because when we receive frames from the camera we do not want to run the risk of them being lost because then the movements would be different from the real ones.
+Finally, we have stayed with the TCP because when we receive frames from the camera we do not want to run the risk of them being lost because then the movements would be different from the real ones.
 
 When doing the tests between the two, we thought that UDP would be faster than TCP, but it was something that we denied in a short time, since the times were almost identical. That made the decision even easier.
 
@@ -69,13 +69,13 @@ The most important thing to know is:
 
 1. You can vary the frequency of the servos if necessary using the pca.frequency in line 22.
 
-2. The server ip is added by SERVER_IP in line 28.
+2. The server IP is added by SERVER_IP in line 28.
 
 3. The server listening port is selected by SERVER_PORT on line 29
 
 4. You can modify the camera index by CAMERA_INDEX in line 32
 
-5. You can adjust the timeout using TIMEOUT on line 40, depending on the type of connection you have. The slower the more timeout will be necessary.
+5. You can adjust the timeout using TIMEOUT on line 40, depending on the type of connection you have. The slower, the more timeout will be necessary.
 
 6. You can modify the size of the image by varying camera.set(cv2.CAP_PROP_FRAME_WIDTH, X) for the width and camera.set(cv2.CAP_PROP_FRAME_HEIGHT, Y) for the height on lines 49 and 50
 
@@ -83,7 +83,7 @@ The most important thing to know is:
 
 The most important thing to know is:
 
-1. As in the client, the server ip and the listening port are selected using SERVER_IP and SERVER_PORT in lines 51 and 52
+1. As in the client, the server IP and the listening port are selected using SERVER_IP and SERVER_PORT in lines 51 and 52
 
 2. Latency can be modified, which is the time that the hand records, then it is processed and sent to the client. It is explained in depth in the code on line 93
 
@@ -102,7 +102,7 @@ See further below for an image of this functionality that MediaPipe provides for
 
 ## Angles function
 
-We calculate the three angles of the joints of each finger, in descending order following the following steps:
+We calculate the three angles of the joints of each finger, in descending order, following the following steps:
 1. We calculate the cross product between the vectors
 
 2. We calculate the angle in radians using the cross product
