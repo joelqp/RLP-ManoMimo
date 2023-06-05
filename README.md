@@ -93,10 +93,26 @@ The most important thing to know is:
 
 # Contribution
 
+Contributions are always welcome! Please submit a Pull Request or send us an email.
+
 # Citing
+
+If you use this project's code for your academic work, we encourage you to cite it.
+
+If you use this project's code in industry, we'd love to hear from you as well; feel free to reach out to the developers directly.
 
 # Support
 
+If you have any issues or suggestions, please open submit a Pull Request.
+
 # Sponsors
+
+This project is proudly supported by:
+
+## Universidad Autónoma de Barcelona (UAB)
+
+We're immensely grateful for the support provided by the Universidad Autónoma de Barcelona, our home institution. The academic knowledge, facilities, and inspiring environment at UAB have been crucial to the success of this project.
+
+We invite other potential sponsors interested in supporting our project to contact us.
 
 # Authors
