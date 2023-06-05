@@ -14,16 +14,15 @@ import logging
 logging.basicConfig(level=logging.DEBUG , format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-
 # # Initialize the PCA9685 controller
-# i2c = busio.I2C(board.SCL, board.SDA)
-# pca = PCA9685(i2c,address=0x40)
-# servo=[]
+i2c = busio.I2C(board.SCL, board.SDA)
+pca = PCA9685(i2c,address=0x40)
+servo=[]
 
-# pca.frequency = 25  # Set the PWM frequency (adjust if necessary)
-# for i in range(5):
-#     servo_channel=pca.channels[i]
-#     servo.append(adafruit_motor.servo.Servo(servo_channel))   
+pca.frequency = 25  # Set the PWM frequency (adjust if necessary)
+for i in range(5):     
+    servo_channel=pca.channels[i]     
+    servo.append(adafruit_motor.servo.Servo(servo_channel))   
 
 # Configuración del servidor
 SERVER_IP = '192.168.1.78'  # Reemplaza con la dirección IP de tu portátil servidor
