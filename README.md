@@ -103,7 +103,7 @@ If you use this project's code in industry, we'd love to hear from you as well; 
 
 # Support
 
-If you have any issues or suggestions, please open submit a Pull Request.
+If you have any issues or suggestions, please submit a Pull Request.
 
 # Sponsors
 
@@ -111,7 +111,7 @@ This project is proudly supported by:
 
 ## Universidad Autónoma de Barcelona (UAB)
 
-We're immensely grateful for the support provided by the Universidad Autónoma de Barcelona, our home institution. The academic knowledge, facilities, and inspiring environment at UAB have been crucial to the success of this project.
+We're immensely grateful for the support provided by the **Universidad Autónoma de Barcelona**, our home institution. The academic knowledge, facilities, and inspiring environment at UAB have been crucial to the success of this project.
 
 We invite other potential sponsors interested in supporting our project to contact us.
 
