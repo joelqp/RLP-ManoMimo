@@ -1,5 +1,5 @@
 # RLP-ManoMimo
-<img src="https://raw.githubusercontent.com/1568079/img/main/main.png" width="640" alt="MANOMIMO pic">
+<img src="https://raw.githubusercontent.com/1568079/img/main/main.png" align="right" width="300" alt="header pic"/>
 
 # Table of Contents
    * [What is this?](#what-is-this)
