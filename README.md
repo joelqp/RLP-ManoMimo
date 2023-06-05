@@ -127,4 +127,13 @@ We invite other potential sponsors interested in supporting our project to conta
 
 # Authors
 
+Joel Marco Quiroga Poma 1504249
+
+Arnau Tena González 1526414
+
+Jill Areny Palma Garro 1604284
+
+Martí Rius Ollé 1568079
+
+
 
