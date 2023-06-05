@@ -97,7 +97,6 @@ The MediaPipe Hand Landmarker task lets you detect the landmarks of the hands in
 
 See further below for an image of this functionality that MediaPipe provides for hand recognition, this package is able to identify, locate and provide a unique number for each joint on both your hands. 
 
-<img src="https://developers.google.com/static/mediapipe/images/solutions/hand-landmarks.png" width="320" alt="MEDIAPIPE pic">
 <img src="https://developers.google.com/static/mediapipe/images/solutions/hand-landmarks.png" width="640" alt="MEDIAPIPE pic">
 
 
@@ -112,14 +111,14 @@ We calculate the three angles of the joints of each finger, in descending order 
 
 ## Finger models
 
-Dataframe de los angulos de las articulaciones de un dedo:
-<img src="https://raw.githubusercontent.com/1568079/img/main/Dataframe%20de%20los%20angulos%20de%20las%20articulaciones%20de%20un%20dedo.png" width="640" alt="DATAFRAME pic">
+Dataframe de los angulos de las articulaciones de un dedo: <br>
+<img src="https://raw.githubusercontent.com/1568079/img/main/Dataframe%20de%20los%20angulos%20de%20las%20articulaciones%20de%20un%20dedo.png" width="320" alt="DATAFRAME pic">
 
 GRAFICO DE DISPERSION
-Generamos una nube de puntos para ver la correlacion entre una de las articulaciones y la clase (si las falanges estan extendidas o flexionadas):
+Generamos una nube de puntos para ver la correlacion entre una de las articulaciones y la clase (si las falanges estan extendidas o flexionadas): <br>
 <img src="https://raw.githubusercontent.com/1568079/img/main/GRAFICO%20DE%20DISPERSION.png" width="640" alt="DISPERSIÓN pic">
 
-Regresion lineal y evaluacion (MSE Y R^2)
+Regresion lineal y evaluacion (MSE Y R^2) <br>
 <img src="https://raw.githubusercontent.com/1568079/img/main/Regresion%20lineal%20y%20evaluacion%20(MSE%20Y%20R%5E2).png" alt="ANÁLISIS pic">
 
 
