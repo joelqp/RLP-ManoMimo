@@ -93,6 +93,10 @@ We have used Mediapipe landmark detection to recognize the coordinates of the la
 
 ## Mediapipe landmark detection
 
+The MediaPipe Hand Landmarker task lets you detect the landmarks of the hands in an image.
+
+See further below for an image of this functionality that MediaPipe provides for hand recognition, this package is able to identify, locate and provide a unique number for each joint on both your hands. 
+
 <img src="https://developers.google.com/static/mediapipe/images/solutions/hand-landmarks.png" width="640" alt="MEDIAPIPE pic">
 
 ## Angles function
