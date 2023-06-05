@@ -16,6 +16,7 @@
    * [Contribution](#contribution)
    * [Citing](#citing)
    * [Support](#support)
+   * [Sponsors](#sponsors)
    * [Authors](#authors)
 
 # What is this?
@@ -145,7 +146,7 @@ If you have any issues, please create an Issue.
 
 This project is proudly supported by:
 
-## Universidad Autónoma de Barcelona (UAB)
+### Universidad Autónoma de Barcelona (UAB)
 
 We're immensely grateful for the support provided by the **Universidad Autónoma de Barcelona**, our home institution. The academic knowledge, facilities, and inspiring environment at UAB have been crucial to the success of this project.
 
@@ -153,10 +154,10 @@ We invite other potential sponsors interested in supporting our project to conta
 
 # Authors
 
-Joel Marco Quiroga Poma 1504249
+- Joel Marco Quiroga Poma 1504249
 
-Arnau Tena González 1526414
+- Arnau Tena González 1526414
 
-Jill Areny Palma Garro 1604284
+- Jill Areny Palma Garro 1604284
 
-Martí Rius Ollé 1568079
+- Martí Rius Ollé 1568079
