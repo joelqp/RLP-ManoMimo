@@ -56,8 +56,9 @@ If you want to improve it, you can try more advanced models and different types 
 # Client-Server connection
 
 Regarding the client-server connection we have tested 2 types:
-- TCP : 
-- UDP :
+- TCP
+- UDP
+
 Finally we have stayed with the tcp because when we receive frames from the camera we do not want to run the risk of them being lost because then the movements would be different from the real ones.
 
 When doing the tests between the two, we thought that UDP would be faster than TCP, but it was something that we denied in a short time, since the times were almost identical. That made the decision even easier.
