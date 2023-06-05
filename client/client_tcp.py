@@ -69,50 +69,42 @@ try:
         client_socket.sendall(frame_data)
 
 
-        # try:
-        #     # Recibir los bytes de la lista desde el servidor
-        #     values_bytes = client_socket.recv(4096)
+        try:
+            # Recibir los bytes de la lista desde el servidor
+            values_bytes = client_socket.recv(4096)
 
-        # except socket.timeout:
-        #     logging.debug('No se recibieron datos del servidor dentro del tiempo de espera')
-        #     continue
+        except socket.timeout:
+            logging.debug('No se recibieron datos del servidor dentro del tiempo de espera')
+            continue
         
-        # logging.debug('ha recibido valores del servidor')
-        # # Deserializar los bytes en una lista de valores float
-        # values = pickle.loads(values_bytes) 
+        logging.debug('ha recibido valores del servidor')
+        # Deserializar los bytes en una lista de valores float
+        values = pickle.loads(values_bytes) 
 
-        # print(values)
-
-
-        # for i, value in enumerate(values):
-        #     values[i] = value*180
-        #     if value>180:
-        #         values[i] = 180
-        #     if value<0:
-        #         values[i] = 0
+        print(values)
 
 
-        # v_0 = values[:5]
-        # v_1 = values[5:]
+        for i, value in enumerate(values):
+            values[i] = value*180
+            if value>180:
+                values[i] = 180
+            if value<0:
+                values[i] = 0
 
-        # inc_0 = (v_1[0] - v_0[0]) // 5
-        # inc_1 = (v_1[1] - v_0[1]) // 5
-        # inc_2 = (v_1[2] - v_0[2]) // 5
-        # inc_3 = (v_1[3] - v_0[3]) // 5
-        # inc_4 = (v_1[4] - v_0[4]) // 5
 
-        # #son valores de 0.1segundos, con un sleep de 0.02s son 5 iteraciones para llegar x ej de 180 a 0
-        # #(0-180) = inc
+        values_sz = len(vales)
+        num_frames = len(vales/5)
 
-        # for i in range(5):
 
-        #     servo[4].angle=v_0[0] - inc_0
-        #     servo[3].angle=v_0[1] + inc_1
-        #     servo[2].angle=v_0[2] + inc_2
-        #     servo[1].angle=v_0[3] - inc_3
-        #     servo[0].angle=v_0[4] + inc_4
-            
-        #     time.sleep(0.02)
+       for i in range(num_frames):
+            v_1 = values[5*(i):5*(i+1)]
+            for i in range(5):
+                servo[4].angle=v_1[0]
+                servo[3].angle=v_1[1]
+                servo[2].angle=v_1[2]
+                servo[1].angle=v_1[3]
+                servo[0].angle=v_1[4]     
+                time.sleep(0.03)
 
 
 finally:
