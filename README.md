@@ -68,10 +68,15 @@ When doing the tests between the two, we thought that UDP would be faster than T
 The most important thing to know is:
 
 1. You can vary the frequency of the servos if necessary using the pca.frequency in line 22.
+
 2. The server ip is added by SERVER_IP in line 28.
+
 3. The server listening port is selected by SERVER_PORT on line 29
+
 4. You can modify the camera index by CAMERA_INDEX in line 32
+
 5. You can adjust the timeout using TIMEOUT on line 40, depending on the type of connection you have. The slower the more timeout will be necessary.
+
 6. You can modify the size of the image by varying camera.set(cv2.CAP_PROP_FRAME_WIDTH, X) for the width and camera.set(cv2.CAP_PROP_FRAME_HEIGHT, Y) for the height on lines 49 and 50
 
 ## Server
@@ -79,11 +84,16 @@ The most important thing to know is:
 The most important thing to know is:
 
 1. As in the client, the server ip and the listening port are selected using SERVER_IP and SERVER_PORT in lines 51 and 52
+
 2. Latency can be modified, which is the time that the hand records, then it is processed and sent to the client. It is explained in depth in the code on line 93
 
 # Hand detection
 
+We have used Mediapipe landmark detection to recognize the coordinates of the landmarks, using the function calculate_the_angles from the coordinates we obtain the angles of the joints of the fingers, and this is the dataset that the models train to predict if the hand is extended or closed.
+
 ## Mediapipe landmark detection
+
+<img src="https://developers.google.com/static/mediapipe/images/solutions/hand-landmarks.png" width="640" alt="MEDIAPIPE pic">
 
 ## Angles function
 
@@ -116,3 +126,5 @@ We're immensely grateful for the support provided by the **Universidad Autónoma
 We invite other potential sponsors interested in supporting our project to contact us.
 
 # Authors
+
+
