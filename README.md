@@ -101,6 +101,13 @@ See further below for an image of this functionality that MediaPipe provides for
 
 ## Angles function
 
+We calculate the three angles of the joints of each finger, in descending order following the following steps:
+1. We calculate the cross product between the vectors
+
+2. We calculate the angle in radians using the cross product
+
+3. We convert the angle from radians to degrees
+
 ## Finger models
 
 # Use-case
