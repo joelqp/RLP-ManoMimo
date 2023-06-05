@@ -6,15 +6,18 @@ import matplotlib.pyplot as plt
 import time
 from collections import deque
 from statistics import mean
+import joblib
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
-from models import model_indice
-from models import model_medio
-from models import model_anular
-from models import model_menique
-from models import model_pulgar
+
+
+model_pulgar     = joblib.load('model_pulgar.pkl')
+model_indice     = joblib.load('model_indice.pkl')
+model_medio      = joblib.load('model_medio.pkl')
+model_anular     = joblib.load('model_anular.pkl')
+model_menique    = joblib.load('model_menique.pkl')
 
 
 
@@ -31,11 +34,11 @@ axis_time = deque(maxlen=30)
 # Configurar el gráfico inicial
 plt.ion()  # Habilitar el modo interactivo
 fig, ax = plt.subplots()
-linea_0, = ax.plot([], pred_0)  # Línea inicial vacía
-linea_1, = ax.plot([], pred_1)  # Línea inicial vacía
-linea_2, = ax.plot([], pred_2)  # Línea inicial vacía
-linea_3, = ax.plot([], pred_3)  # Línea inicial vacía
-linea_4, = ax.plot([], pred_4)  # Línea inicial vacía
+linea_0, = ax.plot([], pred_0, color='pink')  # Línea inicial vacía
+linea_1, = ax.plot([], pred_1, color='purple')  # Línea inicial vacía
+linea_2, = ax.plot([], pred_2, color='orange')  # Línea inicial vacía
+linea_3, = ax.plot([], pred_3, color='green')  # Línea inicial vacía
+linea_4, = ax.plot([], pred_4, color='blue')  # Línea inicial vacía
 
 # Configurar el rango de los ejes x e y
 ax.set_ylim(-0.25, 1.5)  # Rango del eje y
@@ -127,7 +130,7 @@ with mp_hands.Hands(
 			# Redibujar el gráfico
 			fig.canvas.draw()
 			# Agregar una pausa para controlar la velocidad de actualización
-			
+
 
 		# Flip the image horizontally for a selfie-view display.
 		cv2.imshow('MediaPipe Hands', cv2.flip(image, 1))
