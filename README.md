@@ -5,6 +5,9 @@
    * [Requirements](#requirements)
    * [Documentation](#documentation)
    * [How to use](#how-to-use)
+   * [Client-Server connection](#client-server-connection)
+      * [Client](#client)
+      * [Server](#server)
    * [Hand Detection](#hand-detection)
       * [Mediapipe landmark detection](#mediapipe-landmark-detection)
       * [Angles function](#angles-function)
@@ -22,6 +25,12 @@
 # Documentation
 
 # How to use
+
+# Client-Server connection
+
+## Client
+
+## Server
 
 # Hand detection
 
