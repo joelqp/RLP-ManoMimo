@@ -1,5 +1,8 @@
 # RLP-ManoMimo
 Robòtica, Llenguatge i Planificació, Curs 2022-23 Project
+
+https://docs.google.com/presentation/d/1vV7Lt88RAJG0M1EuOl8PxVXpeFjewRLk/edit?usp=drivesdk&ouid=113962539030239291082&rtpof=true&sd=true
+
 <img src="https://raw.githubusercontent.com/1568079/img/main/main.png" align="right" width="410" alt="header pic"/>
 
 # Table of Contents
